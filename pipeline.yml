@@ -1,0 +1,15 @@
+
+
+pipeline:
+  build:
+    - script:
+        - echo "Construindo o projeto..."
+
+  test:
+    - script:
+        - echo "Executando testes..."
+        - python hello_world.py
+
+  deploy:
+    - script:
+        - echo "Fazendo deploy do projeto..."
