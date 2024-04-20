@@ -8,7 +8,7 @@ pipeline:
   test:
     - script:
         - echo "Executando testes..."
-        - python hello_world.py
+        - python app.py
 
   deploy:
     - script:
