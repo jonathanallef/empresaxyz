@@ -1,0 +1,13 @@
+pipeline:
+  build:
+    - script:
+        - echo "Construindo o projeto..."
+
+  test:
+    - script:
+        - echo "Executando testes..."
+        - html projeto-xyz.html
+
+  deploy:
+    - script:
+        - echo "Fazendo deploy do projeto..."
